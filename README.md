@@ -39,5 +39,33 @@ https://github.com/networkluki/guard-activity/releases/latest
 
 ## SHA256
 
+Release asset: `guardLog-v1.0.0-win-x64.zip`
+
 ```text
-AE97DD79DE2B8CD926B452F1B7948883CF261E000BED0112208EBB52418BE3A3
+ADAB4FBD1E51AC6CE398DCAAA3FFC14DFD23AEDB55E9E9C1E168ABEFC2EA89E3
+```
+
+
+## Verify a Download
+
+Only download Guard Activity from the official GitHub Releases page. Before running a downloaded ZIP file, compare its SHA256 hash with the hash published for that exact release asset.
+
+On Windows PowerShell:
+
+```powershell
+Get-FileHash .\guardLog-v1.0.0-win-x64.zip -Algorithm SHA256
+```
+
+You can also verify the file in your browser by going to https://theinfo.nu/tools/files/, uploading `guardLog-v1.0.0-win-x64.zip`, and pasting this SHA256 value:
+
+```text
+ADAB4FBD1E51AC6CE398DCAAA3FFC14DFD23AEDB55E9E9C1E168ABEFC2EA89E3
+```
+
+Do not run the file if the hash differs from the published value.
+
+## Security and Responsible Use
+
+Guard Activity is intended for local use on computers you own or are authorized to monitor. Do not use it for unauthorized monitoring of other people.
+
+See [SECURITY.md](SECURITY.md) for vulnerability reporting, privacy expectations, and recommended hardening guidance.
