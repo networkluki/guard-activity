@@ -45,7 +45,6 @@ Release asset: `guardLog-v1.0.0-win-x64.zip`
 ADAB4FBD1E51AC6CE398DCAAA3FFC14DFD23AEDB55E9E9C1E168ABEFC2EA89E3
 ```
 
-
 ## Verify a Download
 
 Only download Guard Activity from the official GitHub Releases page. Before running a downloaded ZIP file, compare its SHA256 hash with the hash published for that exact release asset.
@@ -53,9 +52,9 @@ Only download Guard Activity from the official GitHub Releases page. Before runn
 On Windows PowerShell:
 
 ```powershell
+
 Get-FileHash .\guardLog-v1.0.0-win-x64.zip -Algorithm SHA256
 ```
-
 Do not run the file if the hash differs from the published value.
 
 ## Security and Responsible Use
